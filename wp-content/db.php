@@ -1,0 +1,1 @@
+/Users/cgendio/cgdiomampo/wxt/wp-content/plugins/query-monitor/wp-content/db.php
