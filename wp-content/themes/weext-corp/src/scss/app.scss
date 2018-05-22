@@ -1,0 +1,102 @@
+/*!
+Theme Name: Weext Corp
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: weext-corp
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Weext Corp is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/ 
+
+$body-color:red;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "includes/custom";
+
+
+// styles.scss
+
+.testing {
+  width: percentage(5/7);
+  .red{
+      background: green;
+      border: 1px solid #CCC;
+  }
+
+  #define{
+      font-size:13px;
+  } 
+}
+
+
+.box {
+    background:#fff;
+    transition:all 0.2s ease;
+    border:2px dashed #dadada;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-clip: padding-box;
+    padding:0 20px 20px 20px;
+    min-height:340px;
+  }
+  
+  .box:hover {
+    border:2px solid #525C7A;
+  }
+  
+  .box span.box-title {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 300;
+      text-transform: uppercase;
+  }
+  
+  .box .box-content {
+    padding: 16px;
+    border-radius: 0 0 2px 2px;
+    background-clip: padding-box;
+    box-sizing: border-box;
+  }
+  .box .box-content p {
+    color:#515c66;
+    text-transform:none;
+  }
+
+  .gal {
+	
+	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	  
+	
+	}	
+	.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+		
+	}#contact .card:hover i,#contact .card:hover h4{
+        color: #87d37c;
+    }
